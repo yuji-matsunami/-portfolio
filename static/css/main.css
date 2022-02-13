@@ -2,7 +2,6 @@ header {
   display: flex;
   width: 100%;
   height: 70px;
-  background-color: rgb(243, 102, 8);
   align-items: center;
   padding: 10px;
 }
@@ -16,4 +15,52 @@ header {
  display: inline-block;
  padding: 10px;
  font-size: 20px;
+}
+.base {
+  background-color: white;
+  margin: 0 5em;
+}
+.self-introduction {
+  margin-left: auto;
+  margin-right: auto;
+  width: 33em;
+}
+.pic-name {
+  width: 16em;
+  margin: 0em 9em;
+  background-color: white;
+}
+.my-name {
+  font-weight: bold;
+}
+.skil-level {
+  margin: 0 3em;
+}
+.use{
+  margin: 0 5em;
+}
+.use-content {
+  margin: 0 5em;
+}
+.framework {
+  margin: 0 5em;
+}
+.framework-content {
+  margin: 0 5em;
+}
+.skil-items {
+  list-style: none;
+  font-weight: bold;
+}
+.skil-head {
+  width: 7em;
+  background-color: rgba(128, 128, 128, 0.199);
+  border-bottom: solid 3px gray;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-pic {
+  width: 20em;
 }
