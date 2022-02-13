@@ -1,3 +1,6 @@
+body {
+  width: 1800px;
+}
 header {
   display: flex;
   width: 100%;
